@@ -1,8 +1,22 @@
 {
   "name": "promisify-me",
   "version": "0.1.0",
-  "description": "Turn ordinary async callback based APIs into shiny promise based ones",
+  "description": "Turn ordinary async APIs into shiny promise based ones",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/surevine/promisify-me.git"
+  },
+  "keywords": [
+    "promise",
+    "async",
+    "q"
+  ],
+  "author": "Ash Ward <ashley.ward@surevine.com>",
+  "license": "Apache 2.0",
+  "engines": {
+    "node": ">=0.8.0"
+  },
   "dependencies": {
     "q": "^1.0.1",
     "spritzr": "^0.1.1"
