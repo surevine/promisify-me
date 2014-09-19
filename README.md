@@ -3,7 +3,11 @@
 A small library to wrap objects and turn ordinary async callback based APIs into
 shiny promise based ones (using the Q promise library)
 
+## Build Status
+[![Build Status](https://travis-ci.org/surevine/promisify-me.svg?branch=master)](https://travis-ci.org/surevine/promisify-me)
+
 ## Usage
+Start with something like this
 ```js
 var PromisifyMe = require('promisify-me');
 ```
